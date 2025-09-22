@@ -3,20 +3,14 @@
 This repository is currently a work in progress for BiFlow MAC Arrays (BMAC), a new class of compute silicon blocks and chiplets targeting **efficient AI inference at every scale**.  
 This repo contains **no proprietary RTL or device-level IP**. It exists to provide safe public documentation, example workflows for integration partners.
 
----
-
 ## Why BMAC?
 AI inference is increasingly **memory- and power-bound**. Scaling models from billions to trillions of parameters stresses today’s accelerators.  
 BMAC rethinks how multiply–accumulate (MAC) operations are orchestrated, aiming to restore **compute, not memory, as the bottleneck**.
-
----
 
 ## What’s Inside
 - **docs/problem-space.md** — overview of today’s bottlenecks in AI inference  
 - **docs/roadmap.md** — future plans for benchmarks and integration guides  
 - **examples/integration.md** — placeholder notes for how BMAC could slot into a standard SoC or accelerator  
-
----
 
 ## Roadmap
 Planned safe contributions here include:
@@ -24,19 +18,13 @@ Planned safe contributions here include:
 - **PDK Expansions:** how to request access to validated flows with PDKs (we do not provide the PDKs)
 - **Partner Hooks:** where to find documentation on IP licensing, evaluation, and support
 
----
-
 ## Today
 Right now this repo contains **only placeholders**. The real IP lives elsewhere under non-public licensing and NDAs.
-
----
 
 ## Contributing
 No contribution is allowed, this is a public reference reposoitory.
 
 ---
-
-
 (c) 2025 Liam Coffey, The Archality Corporation. All rights reserved.
 
 This repository contains public documentation, integration guidelines, and
