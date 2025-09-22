@@ -6,8 +6,6 @@ The toughest challenge for all accelerators, including GPUs, comes down to **mem
 
 Inference is also deployed far more widely than training, and it’s where the greatest impact will be felt for the foreseeable future.
 
----
-
 ## Bottlenecks Today
 - **Memory-bound performance**
 Accelerators spend more time and energy moving weights than doing math. SRAM and DRAM accesses consume orders of magnitude more energy than local compute.
@@ -18,14 +16,11 @@ State-of-the-art accelerators already draw tens to hundreds of watts per chip. S
 - **Latency from contention**
 When weights, inputs, and outputs all share the same ports, cycles are lost. This creates unpredictable stalls that compound at scale.
 
----
-
 ## Industry Pressure
 - **Edge Devices:** Users want near-instant inference (e.g., a 70B-parameter model on a phone) without draining batteries.
 - **Data Centers:** Operators face rising electricity costs and grid limits. Serving high-context inference remotely at scale is already stretching infrastructure.
 - **AGI/ASI Ambitions:** The power demand of truly general AI systems cannot be met by incremental improvements alone — breakthroughs are required.
 
----
 
 ## Looking Ahead
 This repository focuses on building **benchmarks and integration frameworks**.
@@ -43,3 +38,4 @@ The details of the architecture are reserved for partners and licensees. Here, w
 - Example configs and workflows for future benchmarks
 - Documentation of bottlenecks that affect everyone
 - Integration notes to illustrate how next-gen compute blocks might slot into familiar flows
+
