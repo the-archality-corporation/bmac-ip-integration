@@ -1,6 +1,6 @@
-# BiFlow MAC Arrays (Matrix Multiply) — IP Integration Guide
+# Bi-phase MAC Arrays (Matrix Multiply) — IP Integration Guide
 
-This repository is currently a work in progress for BiFlow MAC Arrays (BMAC), a new class of compute silicon blocks and chiplets targeting **efficient AI inference at every scale**.  
+This repository is currently a work in progress for Bi-phase MAC Arrays (BMAC), a new class of compute silicon blocks and chiplets targeting **efficient AI inference at every scale**.  
 This repo contains **no proprietary RTL or device-level IP**. It exists to provide safe public documentation, example workflows for integration partners.
 
 ## Why BMAC?
@@ -28,7 +28,7 @@ No contribution is allowed, this is a public reference reposoitory.
 (c) 2025 Liam Coffey, The Archality Corporation. All rights reserved.
 
 This repository contains public documentation, integration guidelines, and
-example workflows related to BiFlow MAC Arrays (Matrix Multiply).
+example workflows related to Bi-phase MAC Arrays (Matrix Multiply).
 
 Permission is granted to view and reference the materials in this repository
 for informational and educational purposes only.
