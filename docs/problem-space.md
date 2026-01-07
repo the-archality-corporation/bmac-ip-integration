@@ -25,7 +25,7 @@ When weights, inputs, and outputs all share the same ports, cycles are lost. Thi
 ## Looking Ahead
 This repository focuses on building **benchmarks and integration frameworks**.
 
-The technology behind BiFlow MAC Arrays (BMAC) is designed to **shift the bottleneck back to compute instead of memory**.
+The technology behind Bi-phase MAC Arrays (BMAC) is designed to **shift the bottleneck back to compute instead of memory**.
 - **Zero weight pressure** is the #1 goal of BMAC.
 - With weights held steady, the role of SRAM and DRAM becomes simply the **transport of inputs and outputs** — a directional flow that is far easier to schedule for dot products.
 
@@ -38,4 +38,5 @@ The details of the architecture are reserved for partners and licensees. Here, w
 - Example configs and workflows for future benchmarks
 - Documentation of bottlenecks that affect everyone
 - Integration notes to illustrate how next-gen compute blocks might slot into familiar flows
+
 
